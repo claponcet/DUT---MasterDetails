@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp1.Ajouts.AjoutCasting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Ajouts"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Ajouter Casting" Height="450" Width="400">
+    <DockPanel>
+        <TextBlock DockPanel.Dock="Top" Text="Ajouter un casting" FontSize="22" FontWeight="DemiBold" HorizontalAlignment="Center" Margin="0,40,0,20"/>
+        <TextBlock DockPanel.Dock="Top" Text="Choisissez un acteur :" FontSize="18" FontWeight="DemiBold" HorizontalAlignment="Center" Margin="0,40,0,20"/>
+        <ComboBox DockPanel.Dock="Top" Margin="20,0" ItemsSource="{Binding CollectionActeurs}" SelectionChanged="Acteur_SelectionChanged">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Nom}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <TextBlock DockPanel.Dock="Top" Text="Choisissez le personnage associé :" FontSize="18" FontWeight="DemiBold" HorizontalAlignment="Center" Margin="0,40,0,20"/>
+        <ComboBox DockPanel.Dock="Top" Margin="20,0" ItemsSource="{Binding CollectionPersonnages}" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Nom}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Click="Annuler_Click" Grid.Row="1" Content="Annuler" FontSize="15" Height="30" Width="65" Margin="10,20" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+            <Button Click="Ajouter_Click"  Grid.Column="1" Grid.Row="1" Content="Ajouter" FontSize="15" Height="30" Width="65" Margin="20,20" VerticalAlignment="Bottom"/>
+        </Grid>
+    </DockPanel>
+</Window>

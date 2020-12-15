@@ -1,0 +1,105 @@
+﻿<Window x:Class="WpfApp1.Details.FicheFilm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.userControls"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Fiche Film" Height="450" Width="800">
+    <DockPanel Background="AliceBlue">
+        <!--Grid haut de pages avec icônes-->
+        <Grid Height="30" Background="LightBlue" DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Background="LightBlue" BorderThickness="0" Click="Return_Click">
+                <Image  Source="/Images;Component/img/icones/return_arrow.png" HorizontalAlignment="Center"  ></Image>
+            </Button>
+            <Button Grid.Column="1" Background="LightBlue" BorderThickness="0" Click="Home_Click">
+                <Image Source="/Images;Component/img/icones/home_button.png" HorizontalAlignment="Center" Margin="10,2,10,2" ></Image>
+            </Button>
+            <Button x:Name="boutonConnexion" Background="AliceBlue" Content="Connexion" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Width="100" Grid.Column="3" Margin="10,0" Click="Connexion_Click"/>
+            <Border Grid.Column="0" BorderThickness="1" VerticalAlignment="Bottom" BorderBrush="Black"></Border>
+            <Border Grid.Column="1" BorderThickness="1" VerticalAlignment="Bottom" BorderBrush="Black"></Border>
+            <Border Grid.Column="2" BorderThickness="1" VerticalAlignment="Bottom" BorderBrush="Black"></Border>
+            <Border Grid.Column="3" BorderThickness="1" VerticalAlignment="Bottom" BorderBrush="Black"></Border>
+        </Grid>
+        <Grid Margin="7">
+            <!-- Grid centrale avec colonnes pour boutons+affiche+infos+bouton-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="◄" FontSize="18" FontFamily="Arial" Padding="5" Click="Precedent_Click"/>
+            <Viewbox Margin="20" Grid.Column="1" Width="250">
+                <Image Source="{Binding Image}"></Image>
+            </Viewbox>
+            <Grid Grid.Column="2" Margin="5">
+                <Grid.RowDefinitions>
+                    <!--Grid des infos sur le film-->
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="{Binding Titre}" Grid.Row="0" FontSize="25" FontWeight="Bold" Padding="4" HorizontalAlignment="Center"/>
+                <TextBlock Grid.Row="1" Padding="4">
+                    <Run Text="Note :"/>
+                    <Run Text="{Binding NoteMoyenne, Mode=OneWay}"/>
+                    <Run Text="/10"/>
+                </TextBlock>
+                <DockPanel Grid.Row="2">
+                    <Button Content="Voir les commentaires" Width="130" x:Name="Commentaire" Click="Commentaire_Click" Margin="30,0"/>
+                    <CheckBox Content="Pas encore vu" Margin="20,4" x:Name="checkBoxVu" Checked="checkBoxVu_Checked" Unchecked="checkBoxVu_Unchecked"/>
+                </DockPanel>
+                <TextBlock Text="SYNOPSIS" Grid.Row="3" FontWeight="DemiBold" FontSize="16"/>
+                <ScrollViewer  Grid.Row="4" VerticalScrollBarVisibility="Auto">
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Synopsis}"/>
+                </ScrollViewer>
+                <TextBlock Grid.Row="5" Text="Casting :"/>
+                <Button Grid.Row="5" HorizontalAlignment="Center" Content="Ajouter un casting" x:Name="ajouterCasting" Click="ajouterCasting_Click" Visibility="Hidden"/>
+                <!--Liste des acteurs-->
+                <ListBox Grid.Row="6" ItemsSource="{Binding Keys}" x:Name="maListBoxActeurs" SelectionChanged="maListBoxActeurs_SelectionChanged" BorderThickness="0" Background="AliceBlue">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <local:UC1imgLegende Legende="{Binding Nom}" NomImg="{Binding Image}" Height="70" Width="60"/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+                <!--Liste des personnages-->
+                <ListBox Grid.Row="7" ItemsSource="{Binding Values}" x:Name="maListBoxPersonnages" SelectionChanged="maListBoxPersonnages_SelectionChanged" BorderThickness="0" Background="AliceBlue">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <local:UC1imgLegende Legende="{Binding Nom}" NomImg="{Binding Image}" Height="70" Width="60"/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+            <Button Grid.Column="3" Content="►" FontSize="18" FontFamily="Arial" Padding="5" Click="Suivant_Click"/>
+            <Border Grid.Column="0" BorderThickness="1" BorderBrush="Black"/>
+            <Border Grid.Column="1" BorderThickness="1" BorderBrush="Black"/>
+            <Border Grid.Column="2" BorderThickness="1" BorderBrush="Black"/>
+            <Border Grid.Column="3" BorderThickness="1" BorderBrush="Black"/>
+        </Grid>
+    </DockPanel>
+</Window>

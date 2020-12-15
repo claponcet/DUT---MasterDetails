@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp1.Ajouts.AjoutCommentaire"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Ajout Commentaire" Height="450" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ScrollViewer Margin="20">
+            <TextBox MinWidth="200" MaxHeight="300" TextWrapping="Wrap" Background="LightGray" x:Name="textBox"/>
+        </ScrollViewer>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+        <TextBlock Text="Note :" FontSize="15" Margin="20,0"/>
+        <ComboBox SelectedItem="10/10" Width="100" x:Name="comboBox">
+            <ComboBoxItem>01/10</ComboBoxItem>
+            <ComboBoxItem>02/10</ComboBoxItem>
+            <ComboBoxItem>03/10</ComboBoxItem>
+            <ComboBoxItem>04/10</ComboBoxItem>
+            <ComboBoxItem>05/10</ComboBoxItem>
+            <ComboBoxItem>06/10</ComboBoxItem>
+            <ComboBoxItem>07/10</ComboBoxItem>
+            <ComboBoxItem>08/10</ComboBoxItem>
+            <ComboBoxItem>09/10</ComboBoxItem>
+            <ComboBoxItem>10/10</ComboBoxItem>
+        </ComboBox>
+        </StackPanel>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Annuler" FontSize="15" Height="30" Width="65" Margin="10,20" HorizontalAlignment="Right" VerticalAlignment="Bottom" x:Name="Annuler" Click="Annuler_Click"/>
+            <Button Grid.Column="1" Content="Envoyer" FontSize="15" Height="30" Width="65" Margin="30,20" VerticalAlignment="Bottom" x:Name="EnvoyerCom" Click="Ajouter_Click"/>
+        </Grid>
+    </Grid>
+</Window>

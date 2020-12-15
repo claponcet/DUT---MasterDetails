@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApp1.Masters.ListeCommentaires"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.userControls"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Commentaires" Height="450" Width="800">
+    <DockPanel>
+        <!--Grid haut de pages avec icônes-->
+        <Grid Height="30" Background="White" DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Background="White" BorderThickness="0" Click="Return_Click">
+                <Image  Source="/Images;Component/img/icones/return_arrow.png" HorizontalAlignment="Center"  ></Image>
+            </Button>
+            <Button Grid.Column="1" Background="White" BorderThickness="0" Click="Home_Click">
+                <Image Source="/Images;Component/img/icones/home_button.png" HorizontalAlignment="Center" Margin="10,2,10,2" ></Image>
+            </Button>
+            <Button x:Name="boutonConnexion" Content="Connexion" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Width="100" Grid.Column="3" Margin="10,0" Click="Connexion_Click"/>
+            <Border Grid.Column="0" BorderThickness="1" VerticalAlignment="Bottom" BorderBrush="Black"></Border>
+            <Border Grid.Column="1" BorderThickness="1" VerticalAlignment="Bottom" BorderBrush="Black"></Border>
+            <Border Grid.Column="2" BorderThickness="1" VerticalAlignment="Bottom" BorderBrush="Black"></Border>
+            <Border Grid.Column="3" BorderThickness="1" VerticalAlignment="Bottom" BorderBrush="Black"></Border>
+        </Grid>
+        <Grid DockPanel.Dock="Bottom">
+            <Button Content="Nouveau commentaire" Width="150" HorizontalAlignment="Right" Margin="50,10,50,15" Click="Nouveau_Click" x:Name="nouveauCommentaire" Visibility="Visible"/>
+        </Grid>
+        <ScrollViewer Margin="10,10">
+            <ListBox Width="750" ItemsSource="{Binding Commentaires}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <local:UCcommentaire Note="{Binding Note}" Commentaire="{Binding UnCommentaire}" Pseudo="{Binding Pseudo}"/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </ScrollViewer>
+    </DockPanel>
+</Window>

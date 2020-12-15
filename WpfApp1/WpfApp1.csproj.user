@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Ajouts\AjoutCasting.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ajouts\AjoutFilmographie.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ajouts\AjoutInterprete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ajouts\AjoutRole.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreerUnCompte.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Ajouts\AjoutActeur.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ajouts\AjoutCommentaire.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ajouts\AjoutCasting.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ajouts\AjoutFilm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ajouts\AjoutFilmographie.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ajouts\AjoutInterprete.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ajouts\AjoutPerso.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ajouts\AjoutRole.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreerUnCompte.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Details\FicheActeur.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Details\FicheFilm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Details\FichePersonnage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Masters\ListeActeurs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Masters\ListeCommentaires.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Masters\ListeFilms.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Masters\ListePersos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Suppressions\SuppressionActeur.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Suppressions\SuppressionFilm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Suppressions\SuppressionPersonnage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControls\UC1imgLegende.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
