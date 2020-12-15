@@ -1,0 +1,348 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\acteurs\benedictCumberbatch.jpg" />
+    <None Remove="img\acteurs\brieLarson.jpg" />
+    <None Remove="img\acteurs\cateBlanchett.jpg" />
+    <None Remove="img\acteurs\chadwickBoseman.jpg" />
+    <None Remove="img\acteurs\chrisEvans.jpg" />
+    <None Remove="img\acteurs\chrisHemsworth.jpg" />
+    <None Remove="img\acteurs\chrisPratt.jpg" />
+    <None Remove="img\acteurs\donCheadle.jpg" />
+    <None Remove="img\acteurs\edwardNorton.jpg" />
+    <None Remove="img\acteurs\elizabethOlsen.jpg" />
+    <None Remove="img\acteurs\hayleyAtwell.jpg" />
+    <None Remove="img\acteurs\hugoWeaving.jpg" />
+    <None Remove="img\acteurs\jamesSpader.jpg" />
+    <None Remove="img\acteurs\jeremyRenner.jpg" />
+    <None Remove="img\acteurs\joshBrolin.jpg" />
+    <None Remove="img\acteurs\leePace.jpg" />
+    <None Remove="img\acteurs\marisaTomei.jpg" />
+    <None Remove="img\acteurs\markRuffalo.jpg" />
+    <None Remove="img\acteurs\michaelDouglas.jpg" />
+    <None Remove="img\acteurs\nataliePortman.jpg" />
+    <None Remove="img\acteurs\paulRudd.jpg" />
+    <None Remove="img\acteurs\RDJ.jpg" />
+    <None Remove="img\acteurs\Robert_Downey_Jr_iron_man.jpg" />
+    <None Remove="img\acteurs\samuelLJackson.jpg" />
+    <None Remove="img\acteurs\scarlettJohansson.jpg" />
+    <None Remove="img\acteurs\terrenceHoward.jpg" />
+    <None Remove="img\acteurs\tomHolland.jpg" />
+    <None Remove="img\acteurs\zoeSaldana.jpg" />
+    <None Remove="img\add.png" />
+    <None Remove="img\crown.png" />
+    <None Remove="img\films\antman1.jpg" />
+    <None Remove="img\films\antman2.jpg" />
+    <None Remove="img\films\avengers1.jpg" />
+    <None Remove="img\films\avengers2.jpg" />
+    <None Remove="img\films\avengers3.jpg" />
+    <None Remove="img\films\avengers4.jpg" />
+    <None Remove="img\films\blackPanther.jpg" />
+    <None Remove="img\films\captainAmerica1.jpg" />
+    <None Remove="img\films\captainAmerica2.jpg" />
+    <None Remove="img\films\captainAmerica3.jpg" />
+    <None Remove="img\films\captainMarvel.jpg" />
+    <None Remove="img\films\doctorStrange.jpg" />
+    <None Remove="img\films\endgame.jpg" />
+    <None Remove="img\films\gardiens1.jpg" />
+    <None Remove="img\films\gardiens2.jpg" />
+    <None Remove="img\films\hulk.jpg" />
+    <None Remove="img\films\Ironman.jpg" />
+    <None Remove="img\films\Ironman2.jpg" />
+    <None Remove="img\films\Ironman3.jpg" />
+    <None Remove="img\films\spiderman1.jpg" />
+    <None Remove="img\films\spiderman2.jpg" />
+    <None Remove="img\films\thor1.jpg" />
+    <None Remove="img\films\thor2.jpg" />
+    <None Remove="img\films\thor3.jpg" />
+    <None Remove="img\flechedroite.png" />
+    <None Remove="img\flechegauche.png" />
+    <None Remove="img\heros\antman.jpg" />
+    <None Remove="img\heros\auntMay.jpg" />
+    <None Remove="img\heros\blackPanther.jpg" />
+    <None Remove="img\heros\blackWidow.jpg" />
+    <None Remove="img\heros\black_widow.jpg" />
+    <None Remove="img\heros\captainAmerica.jpg" />
+    <None Remove="img\heros\carolDanvers.jpg" />
+    <None Remove="img\heros\craneRouge.jpg" />
+    <None Remove="img\heros\doctorStrange.jpg" />
+    <None Remove="img\heros\gamora.jpg" />
+    <None Remove="img\heros\hankPym.jpg" />
+    <None Remove="img\heros\hawkeye.jpg" />
+    <None Remove="img\heros\hela.jpg" />
+    <None Remove="img\heros\hulk.jpg" />
+    <None Remove="img\heros\ironman.jpg" />
+    <None Remove="img\heros\iron_man.jpg" />
+    <None Remove="img\heros\janeFoster.jpg" />
+    <None Remove="img\heros\nickFury.jpg" />
+    <None Remove="img\heros\peggyCarter.jpg" />
+    <None Remove="img\heros\peggy_carter.jpg" />
+    <None Remove="img\heros\peterQuill.jpg" />
+    <None Remove="img\heros\ronan.jpg" />
+    <None Remove="img\heros\spiderman.jpg" />
+    <None Remove="img\heros\thanos.jpg" />
+    <None Remove="img\heros\thor.jpg" />
+    <None Remove="img\heros\ultron.jpg" />
+    <None Remove="img\heros\wandaMaximoff.jpg" />
+    <None Remove="img\heros\warMachine.jpg" />
+    <None Remove="img\home_button.png" />
+    <None Remove="img\icones\add.png" />
+    <None Remove="img\icones\crown.png" />
+    <None Remove="img\icones\flechedroite.png" />
+    <None Remove="img\icones\flechegauche.png" />
+    <None Remove="img\icones\home_button.png" />
+    <None Remove="img\icones\minus.png" />
+    <None Remove="img\icones\return_arrow.jfif" />
+    <None Remove="img\icones\return_arrow.png" />
+    <None Remove="img\icones\user.jpg" />
+    <None Remove="img\minus.png" />
+    <None Remove="img\return_arrow.jfif" />
+    <None Remove="img\return_arrow.png" />
+    <None Remove="img\user.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\acteurs\benedictCumberbatch.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\brieLarson.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\cateBlanchett.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\chadwickBoseman.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\chrisEvans.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\chrisHemsworth.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\chrisPratt.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\donCheadle.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\edwardNorton.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\elizabethOlsen.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\hayleyAtwell.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\hugoWeaving.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\jamesSpader.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\jeremyRenner.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\joshBrolin.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\leePace.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\marisaTomei.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\markRuffalo.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\michaelDouglas.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\nataliePortman.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\paulRudd.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\RDJ.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\samuelLJackson.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\scarlettJohansson.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\terrenceHoward.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\tomHolland.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\acteurs\zoeSaldana.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\antman1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\antman2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\avengers1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\avengers2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\avengers3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\avengers4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\blackPanther.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\captainAmerica1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\captainAmerica2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\captainAmerica3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\captainMarvel.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\doctorStrange.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\gardiens1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\gardiens2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\hulk.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\spiderman1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\spiderman2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\thor1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\thor2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\thor3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\antman.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\auntMay.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\blackPanther.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\blackWidow.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\captainAmerica.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\carolDanvers.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\craneRouge.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\doctorStrange.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\gamora.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\hankPym.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\hawkeye.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\hela.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\hulk.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\ironman.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\janeFoster.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\nickFury.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\peggyCarter.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\peterQuill.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\ronan.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\spiderman.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\thanos.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\thor.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\ultron.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\wandaMaximoff.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\heros\warMachine.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\icones\add.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\Ironman.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\Ironman2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\films\Ironman3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\icones\home_button.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\icones\minus.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\icones\return_arrow.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

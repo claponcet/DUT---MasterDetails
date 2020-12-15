@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Ensemble xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Modele">
+  <CollectionElements>
+    <Element z:Id="i1" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/captainAmerica1.jpg</Image>
+      <Ordre>1</Ordre>
+      <Synopsis>Steve Rogers, un jeune homme frêle de Brooklyn, est transformé en un super-soldat nommé Captain America durant la Seconde Guerre mondiale. Il doit notamment arrêter Crâne rouge, chef d'HYDRA, qui a mis au point des armes surpuissantes en utilisant une mystérieuse source d'énergie.</Synopsis>
+      <Titre>Captain America 1</Titre>
+    </Element>
+    <Element z:Id="i2" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/captainMarvel.jpg</Image>
+      <Ordre>2</Ordre>
+      <Synopsis>Le film traite de la découverte de Carol Danvers de ses supers-pouvoirs au cours des années 1990 et de son périple pour délivrer le peuple Skrull du joug de l'empire Kree.</Synopsis>
+      <Titre>Captain Marvel</Titre>
+    </Element>
+    <Element z:Id="i3" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/Ironman.jpg</Image>
+      <Ordre>3</Ordre>
+      <Synopsis>Tony Stark, playboy, milliardaire, n'est pas seulement l'héritier des usines d'armement de son père (Stark Industries), c'est également un inventeur de génie. Alors qu'il est en déplacement en Afghanistan afin de présenter sa dernière création, le missile Jéricho, il est enlevé par des terroristes.</Synopsis>
+      <Titre>Ironman 1</Titre>
+    </Element>
+    <Element z:Id="i4" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/Ironman2.jpg</Image>
+      <Ordre>4</Ordre>
+      <Synopsis>Au moment où Tony Stark révéla au monde qu'il est Iron Man, à Moscou, Anton Vanko meurt dans la misère. Son fils Ivan décide alors de se venger de la famille Stark et jure de faire tomber Tony aussi bas que sa propre famille est tombée à cause d'Howard Stark.</Synopsis>
+      <Titre>Ironman 2</Titre>
+    </Element>
+    <Element z:Id="i5" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/thor1.jpg</Image>
+      <Ordre>5</Ordre>
+      <Synopsis>Thor, un Dieu venu d'Asgard et exilé sur Terre, va rencontrer l'astrophysicienne Jane Foster. Il devra arrêter son frère Loki, qui tente de devenir le nouveau roi d'Asgard.</Synopsis>
+      <Titre>Thor 1</Titre>
+    </Element>
+    <Element z:Id="i6" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/hulk.jpg</Image>
+      <Ordre>6</Ordre>
+      <Synopsis>Caché dans la favela de Rocinha au Brésil, Bruce Banner tente de percer le secret du mal qui l’afflige. À chaque fois que son pouls grimpe en flèche, en raison du stress ou de la colère, ce scientifique réputé, exposé il y a cinq ans à une forte dose de rayons gamma, se transforme en géant vert invincible, impulsif et parfois même meurtrier.</Synopsis>
+      <Titre>L'Incroyable Hulk</Titre>
+    </Element>
+    <Element z:Id="i7" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/avengers1.jpg</Image>
+      <Ordre>7</Ordre>
+      <Synopsis>Un an après avoir été exilé d'Asgard, Loki, le frère de Thor, s’allie avec « l'Autre », le chef d'une race extra-terrestre : les Chitauris. L'Autre souhaite s'emparer du Tesseract, qui est actuellement sur la Terre. Avec l'aide de l'armée des Chitauris, Loki pourra prendre le contrôle de cette planète en échange du Tesseract.</Synopsis>
+      <Titre>Avengers 1</Titre>
+    </Element>
+    <Element z:Id="i8" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/Ironman3.jpg</Image>
+      <Ordre>8</Ordre>
+      <Synopsis>Tony Stark se remémore le nouvel an 2000 à Berne. Il y évite avec arrogance le scientifique Aldrich Killian pour passer la nuit avec la chercheuse Maya Hansen. Killian aurait voulu qu'il travaille avec lui pour développer son entreprise, Advanced Idea Mechanics (AIM). Hansen lui révèle le projet sur lequel elle travaille, Extremis, un gène d’auto-régénération. Cependant, le gène est instable et la plante soumise à Extremis explose.</Synopsis>
+      <Titre>Ironman 3</Titre>
+    </Element>
+    <Element z:Id="i9" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/thor2.jpg</Image>
+      <Ordre>9</Ordre>
+      <Synopsis>Sur Terre, Jane et son amie Darcy Lewis se rendent à Londres pour étudier une usine désaffectée où des portails sont apparus, perturbant localement les lois physiques. Jane trouve par hasard un portail qui la mène où est caché l'Éther et se retrouve possédée par la substance. Au même moment, Malekith et les Elfes noirs, qui furent en sommeil à bord de leur vaisseau, sont réveillés par l'Éther.</Synopsis>
+      <Titre>Thor 2</Titre>
+    </Element>
+    <Element z:Id="i10" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/captainAmerica2.jpg</Image>
+      <Ordre>10</Ordre>
+      <Synopsis>Quand l'étendue du plan maléfique est révélée, Captain America et Black Widow sollicite l'aide d'un nouvel allié, le Faucon. Cependant, ils se retrouvent bientôt face à un inattendu et redoutable ennemi - le Soldat de l'Hiver.</Synopsis>
+      <Titre>Captain America 2</Titre>
+    </Element>
+    <Element z:Id="i11" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/gardiens1.jpg</Image>
+      <Ordre>11</Ordre>
+      <Synopsis>Sur Terre, en 1988, le jeune Peter Jason Quill rend visite à sa mère à l'hôpital. Cette dernière est atteinte d'un cancer en phase terminale. Elle donne un cadeau à Peter puis meurt. Peter s'enfuit en pleurs, avant d'être aspiré par un vaisseau spatial.</Synopsis>
+      <Titre>Les Gardiens de la Galaxie</Titre>
+    </Element>
+    <Element z:Id="i12" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/gardiens2.jpg</Image>
+      <Ordre>12</Ordre>
+      <Synopsis>Après avoir affronté Ronan l'Accusateur, les Gardiens de la Galaxie voyagent de planète en planète et y vendent leurs services. Ils vont découvrir la mystérieuse filiation de Star-Lord.</Synopsis>
+      <Titre>Les Gardiens de la Galaxie 2</Titre>
+    </Element>
+    <Element z:Id="i13" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/avengers2.jpg</Image>
+      <Ordre>13</Ordre>
+      <Synopsis>Après la rencontre avec le Soldat de l'Hiver et la destruction du SHIELD, Tony Stark, avec l'aide de Bruce Banner, crée Ultron, une intelligence artificielle capable d'augmenter seule ses capacités, qui est censée protéger l'humanité de toutes les menaces potentielles et contrôler l'Iron Legion. Mais le plan de Stark se retourne contre lui.</Synopsis>
+      <Titre>Avengers 2</Titre>
+    </Element>
+    <Element z:Id="i14" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/antman1.jpg</Image>
+      <Ordre>14</Ordre>
+      <Synopsis>Scott Lang, cambrioleur de haut vol, va devoir apprendre à se comporter en héros et aider son mentor, le Dr Hank Pym, à protéger le secret de son spectaculaire costume d’Ant-Man, afin d’affronter une effroyable menace…</Synopsis>
+      <Titre>Ant-Man 1</Titre>
+    </Element>
+    <Element z:Id="i15" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/captainAmerica3.jpg</Image>
+      <Ordre>15</Ordre>
+      <Synopsis>Steve Rogers est désormais à la tête des Avengers, dont la mission est de protéger l'humanité. À la suite d'une de leurs interventions qui a causé d'importants dégâts collatéraux, le gouvernement décide de mettre en place un organisme de commandement et de supervision. Cette nouvelle donne provoque une scission au sein de l'équipe.</Synopsis>
+      <Titre>Captain America 3</Titre>
+    </Element>
+    <Element z:Id="i16" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/blackPanther.jpg</Image>
+      <Ordre>16</Ordre>
+      <Synopsis>Après les événements qui se sont déroulés dans Captain America : Civil War, T’Challa revient chez lui prendre sa place sur le trône du Wakanda, une nation africaine technologiquement très avancée.</Synopsis>
+      <Titre>Black Panther</Titre>
+    </Element>
+    <Element z:Id="i17" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/spiderman1.jpg</Image>
+      <Ordre>17</Ordre>
+      <Synopsis>Après ses spectaculaires débuts dans Captain America : Civil War, le jeune Peter Parker découvre peu à peu sa nouvelle identité, celle de Spider-Man, le super-héros lanceur de toile. Galvanisé par son expérience avec les Avengers, Peter rentre chez lui auprès de sa tante May, sous l’œil attentif de son nouveau mentor, Tony Stark.</Synopsis>
+      <Titre>Spider-Man 1</Titre>
+    </Element>
+    <Element z:Id="i18" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/antman2.jpg</Image>
+      <Ordre>18</Ordre>
+      <Synopsis>Après les événements survenus dans Captain America : Civil War, Scott Lang a bien du mal à concilier sa vie de super-héros et ses responsabilités de père. Mais ses réflexions sur les conséquences de ses choix tournent court lorsque Hope van Dyne et le Dr Hank Pym lui confient une nouvelle mission urgente…</Synopsis>
+      <Titre>Ant-Man 2</Titre>
+    </Element>
+    <Element z:Id="i19" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/doctorStrange.jpg</Image>
+      <Ordre>19</Ordre>
+      <Synopsis>Doctor Strange suit l'histoire du Docteur Stephen Strange, talentueux neurochirurgien qui, après un tragique accident de voiture, doit mettre son égo de côté et apprendre les secrets d'un monde caché de mysticisme et de dimensions alternatives. Basé à New York, dans le quartier de Greenwich Village, Doctor Strange doit jouer les intermédiaires entre le monde réel et ce qui se trouve au-delà, en utlisant un vaste éventail d'aptitudes métaphysiques et d'artefacts pour protéger le Marvel Cinematic Universe.</Synopsis>
+      <Titre>Doctor Strange</Titre>
+    </Element>
+    <Element z:Id="i20" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/thor3.jpg</Image>
+      <Ordre>20</Ordre>
+      <Synopsis>Privé de son puissant marteau, Thor est retenu prisonnier sur une lointaine planète aux confins de l’univers. Pour sauver Asgard, il va devoir lutter contre le temps afin d’empêcher l’impitoyable Hela d’accomplir le Ragnarök – la destruction de son monde et la fin de la civilisation asgardienne. Mais pour y parvenir, il va d’abord devoir mener un combat titanesque de gladiateurs contre celui qui était autrefois son allié au sein des Avengers : l’incroyable Hulk…</Synopsis>
+      <Titre>Thor 3</Titre>
+    </Element>
+    <Element z:Id="i21" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/avengers3.jpg</Image>
+      <Ordre>21</Ordre>
+      <Synopsis>Les Avengers et leurs alliés devront être prêts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l’univers.</Synopsis>
+      <Titre>Avengers 3</Titre>
+    </Element>
+    <Element z:Id="i22" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/avengers4.jpg</Image>
+      <Ordre>22</Ordre>
+      <Synopsis>Thanos ayant anéanti la moitié de l’univers, les Avengers restants resserrent les rangs dans ce vingt-deuxième film des Studios Marvel, grande conclusion d’un des chapitres de l’Univers Cinématographique Marvel.</Synopsis>
+      <Titre>Avengers 4</Titre>
+    </Element>
+    <Element z:Id="i23" i:type="Film" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Casting xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <Commentaires />
+      <Image>/Images;Component/img/films/spiderman2.jpg</Image>
+      <Ordre>23</Ordre>
+      <Synopsis>L'araignée sympa du quartier décide de rejoindre ses meilleurs amis Ned, MJ, et le reste de la bande pour des vacances en Europe. Cependant, le projet de Peter de laisser son costume de super-héros derrière lui pendant quelques semaines est rapidement compromis quand il accepte à contrecoeur d'aider Nick Fury à découvrir le mystère de plusieurs attaques de créatures, qui ravagent le continent !</Synopsis>
+      <Titre>Spider-Man 2</Titre>
+    </Element>
+  </CollectionElements>
+  <listeUtilisateurs>
+    <Utilisateur z:Id="i24" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Administrateur>true</Administrateur>
+      <Motdepasse>123456</Motdepasse>
+      <Pseudo>admin</Pseudo>
+      <listeFilmsVus xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i1" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i2" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i3" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i4" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i5" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i6" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i7" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i8" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i9" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i10" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i11" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i12" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i13" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i14" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i15" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i16" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i17" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i18" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i19" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i20" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i21" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i22" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i23" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+      </listeFilmsVus>
+    </Utilisateur>
+    <Utilisateur z:Id="i25" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Administrateur>false</Administrateur>
+      <Motdepasse>123456</Motdepasse>
+      <Pseudo>user</Pseudo>
+      <listeFilmsVus xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i1" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i2" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i3" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i4" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i5" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i6" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i7" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i8" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i9" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i10" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i11" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i12" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i13" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i14" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i15" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i16" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i17" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i18" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i19" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i20" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i21" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i22" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+        <d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+          <d4p1:Key z:Ref="i23" />
+          <d4p1:Value>false</d4p1:Value>
+        </d4p1:KeyValueOfFilmbooleanr8lJIcnV>
+      </listeFilmsVus>
+    </Utilisateur>
+  </listeUtilisateurs>
+</Ensemble>
